@@ -6,6 +6,7 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
+        "test": "node ./test.js",
         "build": "rm -rf ./dist && tsc"
     },
     "repository": {
